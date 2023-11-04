@@ -1,0 +1,74 @@
+.navbar {
+  padding: 20px 30px;
+  background-color: #121212;
+  border-bottom: 1.2px solid --color-border;
+}
+
+.navbarButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: rgb(24 24 27);
+  border: 1.2px solid --color-border;
+  transition: 0.1s ease-in;
+}
+
+.navbarButton:hover {
+  background-color: rgb(39 39 42);
+}
+
+.dropDown {
+  position: absolute;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(24 24 27);
+  border: 1.2px solid --color-border;
+}
+
+.dropDown span {
+  color: white;
+  font-weight: 700;
+}
+
+.dropDown div:first-child {
+  border-bottom: 1px solid --color-border;
+}
+
+.group {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group p {
+  font-weight: 600;
+}
+
+.group select {
+  outline: None;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: rgb(24 24 27);
+  color: #fff;
+  border: 1px solid --color-border;
+  font-size: 1rem;
+}
+
+.group select option {
+  margin: 12px;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: rgb(39 39 42);
+  border-bottom: 1px solid --color-border;
+}
