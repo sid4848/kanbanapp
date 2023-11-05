@@ -1,7 +1,7 @@
 .navbar {
   padding: 20px 30px;
-  background-color: #121212;
-  border-bottom: 1.2px solid rgba(255, 255, 255, 0.12);
+  background-color: var(--color-bg-main);
+  border-bottom: 1.2px solid var(--color-border);
 }
 
 .navbarButton {
@@ -13,13 +13,13 @@
   font-size: 1rem;
   font-weight: 600;
   border-radius: 10px;
-  background-color: rgb(24 24 27);
-  border: 1.2px solid rgba(255, 255, 255, 0.12);
+  background-color: var(--color-bg-secondary);
+  border: 1.2px solid var(--color-border);
   transition: 0.1s ease-in;
 }
 
 .navbarButton:hover {
-  background-color: rgb(39 39 42);
+  background-color: var(--color-bg-primary);
 }
 
 .dropDown {
@@ -31,17 +31,17 @@
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
-  background-color: rgb(24 24 27);
-  border: 1.2px solid rgba(255, 255, 255, 0.12);
+  background-color: var(--color-bg-secondary);
+  border: 1.2px solid var(--color-border);
 }
 
 .dropDown span {
-  color: white;
+  color: var(--color-text);
   font-weight: 700;
 }
 
 .dropDown div:first-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .group {
@@ -59,9 +59,9 @@
   outline: None;
   padding: 5px;
   border-radius: 4px;
-  background-color: rgb(24 24 27);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
   font-size: 1rem;
 }
 
@@ -69,6 +69,6 @@
   margin: 12px;
   font-size: 1rem;
   font-weight: 400;
-  background-color: rgb(39 39 42);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: var(--color-bg-primary);
+  border-bottom: 1px solid var(--color-border);
 }

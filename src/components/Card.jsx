@@ -8,14 +8,17 @@ const Card = ({ id, title, tags, isAvailabel }) => {
       <div className="cardHeader" style={{ justifyContent: "space-between" }}>
         <span>{id}</span>
 
-        <div className="image">
-          <img
-            src="https://xsgames.co/randomusers/assets/avatars/male/23.jpg"
-            alt="Q"
-          />
-
-          {isAvailabel ? <div className="status"></div> : <></>}
-        </div>
+        {isAvailabel === undefined ? (
+          <div className="image">
+            <img
+              src="https://xsgames.co/randomusers/assets/avatars/male/23.jpg"
+              alt="Q"
+            />
+            {isAvailabel ? <div className="status"></div> : <></>}
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
 
       <div className="cardBody">

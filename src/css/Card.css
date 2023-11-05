@@ -7,7 +7,7 @@
   gap: 10px;
   border-radius: 10px;
   padding: 10px;
-  background-color: rgb(24 24 27);
+  background-color: var(--color-bg-secondary);
 }
 
 .cardHeader {
@@ -20,7 +20,7 @@
 }
 
 .cardHeader span {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--color-subtext);
   font-weight: 700;
 }
 
@@ -43,7 +43,7 @@ img {
   bottom: 0;
   width: 10px;
   height: 10px;
-  background: silver;
+  background: var(--color-subtext);
   border-radius: 50%;
 }
 
@@ -51,7 +51,7 @@ img {
   font-weight: 400;
   text-wrap: wrap;
   overflow-y: auto;
-  color: #fff;
+  color: var(--color-text);
 }
 
 .cardFooter {
@@ -68,13 +68,13 @@ img {
   justify-content: center;
   gap: 5px;
   padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid var(--color-border);
   border-radius: 10px;
 }
 .cardTag div {
   padding-top: 2.5px;
 }
 .cardTag p {
-  color: darkgray;
-  font-weight: 400;
+  color: var(--color-subtext);
+  font-weight: 500;
 }

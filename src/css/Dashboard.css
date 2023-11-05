@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   padding: 5px 10px;
   justify-content: space-evenly;
-  background-color: #121212;
+  background-color: var(--color-bg-main);
   overflow-x: hidden;
   margin-top: 1.5rem;
 }
@@ -18,9 +18,9 @@
   gap: 1rem;
   width: 350px;
   padding: 0.5rem;
-  background-color: rgb(39 39 42);
+  background-color: var(--color-bg-primary);
   border-radius: 20px;
-  border: 1.2px solid rgba(255, 255, 255, 0.12);
+  border: 1.2px solid var(--color-border);
 }
 
 .dashboard-container_cardHeading-leftside {
@@ -36,9 +36,9 @@
 }
 
 .dashboard-container_cardHeading-leftside_info p:nth-child(2) {
-  background-color: rgb(39 39 42);
+  background-color: var(--color-bg-primary);
   padding: 4px;
-  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border: 1.5px solid var(--color-border);
   border-radius: 10px;
 }
 
@@ -54,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(24 24 27);
+  background-color: var(--color-bg-secondary);
   font-weight: 600;
   border-radius: 10px;
 }
